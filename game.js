@@ -103,7 +103,6 @@ function buttonAnimationGame(randomChosenColour){
 }
 
 function playButton(){
-  var play = new Audio('sounds/play.mp3');
   play.play();
   if (click == 0 && level == 1) {
     gamePattern = [];
