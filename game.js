@@ -103,7 +103,6 @@ function buttonAnimationGame(randomChosenColour){
 }
 
 function playButton(){
-  play.play();
   if (click == 0 && level == 1) {
     gamePattern = [];
     userClickedPattern = [];
